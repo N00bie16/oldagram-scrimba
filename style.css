@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dddddd;
+  width: 100vw;
+  height: 100vh;
+  font-family: "source sans 3", sans-serif;
+}
+
+header,
+main {
+  background-color: #fff;
+  max-width: 375px;
+  margin: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.header-container img {
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.avatar-container {
+  width: 348px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.6em;
+  padding-top: 1.5rem;
+}
+
+.avatar-container img {
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.main-image {
+  width: 375px;
+  height: 375px;
+  margin-top: 1.25em;
+  background-size: cover;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+p:nth-child(2) {
+  font-size: 0.7rem;
+}
+
+.container-props {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.6em;
+  padding: 0.5em;
+  margin-bottom: 10px;
+}
+
+.container-icons {
+  display: flex;
+  gap: 0.8em;
+}
+
+.container-props button {
+  border: none;
+  background-color: transparent;
+}
+
+.container-props button img {
+  width: 20px;
+}
