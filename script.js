@@ -15,11 +15,11 @@ const listOfPost = posts.map((post) => {
         <img src="${post.post}" alt="" class="main-image" />
         <div class="container-props">
           <div class="container-icons">
-            <button><img src="/images/icon-heart.png"></button>
+            <button><img src="./images/icon-heart.png"></button>
             <button>
-                <img src="/images/icon-comment.png">
+                <img src="./images/icon-comment.png">
             </button>
-            <button><img src="/images/icon-dm.png"></button>
+            <button><img src="./images/icon-dm.png"></button>
           </div>
           <p><strong>${post.likes} likes</strong></p>
           <p><strong>${post.username}</strong> ${post.comment}</p>
