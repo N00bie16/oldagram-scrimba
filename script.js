@@ -1,4 +1,4 @@
-import posts from "./post";
+import posts from "./post.js";
 
 const mainContent = document.getElementById("main-content");
 
